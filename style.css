@@ -18,9 +18,7 @@ body, html {
     align-items: center;
 }
 header{
-    color: bisque;
-    
-    
+    color: bisque;   
 }
 .clock-container{
     display: flex;
@@ -31,20 +29,18 @@ header{
 }
 h1{
     text-align: center;
-    font-size: 100px;
+    font-size: 120px;
     font-family: Lobster, sans-serif;
 }
 h2{
-    text-align: center;
-    font-size: 30px;
-    border: 3px solid bisque;
+    
+    font-size: 40px;  
 }
 .clock{
     text-align: center;
     font-size: 30px;
 }
 .box{
-    
     border-radius: 10px;
 }
 @media only screen and (max-width: 1200px) {
