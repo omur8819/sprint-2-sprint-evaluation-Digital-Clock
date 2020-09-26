@@ -9,13 +9,19 @@ body, html {
 
     
 }
+#ankara, #washington, #london, #tokyo{
+    border: 3px solid bisque;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+}
 header{
     color: bisque;
-    font-size: 40px;
-    text-align: center;
-    outline: 3px solid bisque;
+    
+    
 }
-
 .clock-container{
     display: flex;
     flex-direction: row;
@@ -25,14 +31,18 @@ header{
 }
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
 }
 .clock{
     text-align: center;
     font-size: 30px;
 }
 .box{
-    border: 5px solid bisque;
+    
     border-radius: 10px;
 }
 @media only screen and (max-width: 800px) {
